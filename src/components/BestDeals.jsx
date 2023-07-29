@@ -28,7 +28,7 @@ function BestDeals() {
           View All Property
         </button>
       </div>
-      <div className="">
+      <div className="w-[100%]">
         <div className="flex items-start mt-[50px] gap-[54px]">
           {dealsType.map((deals) => (
             <div
