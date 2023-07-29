@@ -40,6 +40,7 @@ function BestDeals() {
               className="cursor-pointer"
             >
               {deals.title}
+              {deals.id === selected && <div className="w-[150px] h-[2px] bg-[#F85A47] mt-[10px]"></div>}
             </div>
           ))}
         </div>
