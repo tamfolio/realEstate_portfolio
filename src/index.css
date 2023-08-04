@@ -1,12 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Manrope:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100&family=Manrope:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,100&family=Manrope:wght@700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
+}
+
+.box-shadow {
+  box-shadow: 0px 3.0185184478759766px 3.1481480598449707px 0px
+      rgba(0, 0, 0, 0.01),
+    0px 13.281481742858887px 6.518518447875977px 0px rgba(0, 0, 0, 0.02),
+    0px 32.599998474121094px 13px 0px rgba(0, 0, 0, 0.02),
+    0px 62.785186767578125px 25.481481552124023px 0px rgba(0, 0, 0, 0.02),
+    0px 105.64814758300781px 46.85185241699219px 0px rgba(0, 0, 0, 0.03),
+    0px 163px 80px 0px rgba(0, 0, 0, 0.04);
 }

@@ -1,7 +1,9 @@
 import './App.css';
 import BestDeals from './components/BestDeals';
+import Footer from './components/Footer';
 import Hero from './components/Hero/Hero';
 import HowItWorks from './components/HowItWorks';
+import Newsletter from './components/Newsletter';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
      <Hero />
      <HowItWorks/>
      <BestDeals/>
+     <Newsletter/>
+     <Footer />
     </div>
   );
 }
