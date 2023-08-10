@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero/Hero';
 import HowItWorks from './components/HowItWorks';
 import Newsletter from './components/Newsletter';
+import Review from './components/Review';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hero />
      <HowItWorks/>
      <BestDeals/>
+     <Review/>
      <Newsletter/>
      <Footer />
     </div>
