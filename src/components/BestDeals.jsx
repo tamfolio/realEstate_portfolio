@@ -36,6 +36,7 @@ function BestDeals() {
                 color: deals.id === selected ? "#F85A47" : "",
                 fontWeight: deals.id === selected ? "700" : "",
               }}
+              key={deals.id}
               onClick={() => handleColor(deals)}
               className="cursor-pointer"
             >

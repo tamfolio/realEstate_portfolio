@@ -1,5 +1,6 @@
 import './App.css';
 import BestDeals from './components/BestDeals';
+import Featured from './components/Featured';
 import Footer from './components/Footer';
 import Hero from './components/Hero/Hero';
 import HowItWorks from './components/HowItWorks';
@@ -12,6 +13,7 @@ function App() {
      <Hero />
      <HowItWorks/>
      <BestDeals/>
+     <Featured/>
      <Review/>
      <Newsletter/>
      <Footer />
